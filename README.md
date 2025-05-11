@@ -1,23 +1,71 @@
-Introduction
+# 🚨 DDoS Attack Detection Using Machine Learning
 
-A Distributed Denial of Service (DDoS) attack is a type of cyber-attack where multiple compromised systems are used to  flood a targeted  server, website, or  network with a large volume of traffic, requests  or data,  making it inaccessible to its legitimate users. In a DDoS attack, the attacker can take control of many computers or devices 
-(also called botnets) that have been infected with malware. The attacker then uses these compromised systems to send an overwhelming amount of traffic or requests  to the target system, making it unable  to handle legitimate requests. DDoS attacks can have severe consequences, including financial losses, reputational damage, and loss of customer trust. 
-Detecting and mitigating these attacks is crucial to maintaining the integrity of networks and services. This project focuses on classifying DDoS attacks using various machine learning models. The dataset used for this project is the IDS 2017 dataset.
-The project involves several key steps: data preprocessing, exploration, splitting, model training, evaluation, and comparison. Each step is crucial to building an effective DDoS detection model. We employ multiple machine learning algorithms, including Random Forest, Logistic Regression, to classify the attacks and evaluate their performance using various metrics.
-Table of Contents: 
-1.	Importing Libraries
-2.	Data Pre-processing
-3.	Data Exploring
-4.	Data Splitting
-5.	Model Training
+## 📘 Overview
 
-  o	Random Forest
-  o	Logistic Regression
-7.	Model Evaluation
+A Distributed Denial of Service (DDoS) attack is a cyber-attack where multiple compromised systems flood a targeted server, website, or network with excessive traffic or requests, rendering it inaccessible to legitimate users. These systems, often infected with malware and turned into botnets, overwhelm the target, leading to service disruption.
 
-  o	Accuracy
-  o	F1 Score
-  o	Recall
-  o	Precision
-  o	Confusion Matrix
-8.	Model Comparison
+DDoS attacks can cause significant financial loss, reputational damage, and erosion of customer trust. Hence, detecting and mitigating these attacks is vital for maintaining the integrity and availability of networked systems.
+
+This project focuses on detecting DDoS attacks using various machine learning algorithms. It uses the **IDS 2017 dataset** and includes all major steps such as data preprocessing, exploration, model training, and evaluation. The goal is to build an accurate and efficient classifier for early DDoS detection.
+
+---
+
+## 📂 Table of Contents
+
+1. Importing Libraries  
+2. Data Pre-processing  
+3. Data Exploration  
+4. Data Splitting  
+5. Model Training  
+   - Random Forest  
+   - Logistic Regression  
+6. Model Evaluation  
+   - Accuracy  
+   - F1 Score  
+   - Recall  
+   - Precision  
+   - Confusion Matrix  
+7. Model Comparison  
+
+---
+
+## 🛠️ Dataset
+
+- **Name**: IDS 2017 (Intrusion Detection System 2017)
+- **Source**: [Kaggle - DDoS Datasets](https://www.kaggle.com/datasets/devendra416/ddos-datasets)
+- **Description**: Contains labeled network traffic data for training machine learning models to detect DDoS attacks.
+
+---
+
+## 🤖 Machine Learning Models Used
+
+- **Random Forest Classifier**
+- **Logistic Regression**
+
+These models were chosen for their robustness and efficiency in classification problems involving network traffic data.
+
+---
+
+## 📊 Evaluation Metrics
+
+To measure and compare the performance of each model, we used the following metrics:
+
+- **Accuracy**
+- **Precision**
+- **Recall**
+- **F1 Score**
+- **Confusion Matrix**
+
+---
+
+## ✅ Results
+![image](https://github.com/user-attachments/assets/3cce3d58-49e3-49c9-a729-c3ce5f62cee4)
+![image](https://github.com/user-attachments/assets/0011c283-9ec3-4e7f-bd8d-b71ba072de27)
+![image](https://github.com/user-attachments/assets/12dac410-b9c1-4464-a2cc-67cd43385352)
+---
+
+## 📌 Conclusion
+
+This project demonstrates how machine learning models can effectively classify DDoS attacks using real-world network traffic data. Random Forest and Logistic Regression classifiers were implemented and evaluated, with comparative results offering insights into their effectiveness.
+
+---
